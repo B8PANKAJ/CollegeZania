@@ -1,0 +1,24 @@
+/* Coursal.css */
+.coursal-container {
+  width: 100%; /* Make the container full width */
+  max-width: 95%; /* Optionally set a maximum width */
+  margin: 0 auto; /* Center the Swiper container */
+}
+
+.mySwiper {
+  /* Optional: Set height or styles for the swiper */
+  height: 300px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Crop the images if necessary */
+  border-radius: 10px;
+}

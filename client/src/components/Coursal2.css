@@ -1,0 +1,39 @@
+/* Coursal2.css */
+.slider-container {
+  width: 100%; /* Full width */
+  max-width: 400px; /* Optional: limit the width for a neat layout */
+  margin: 0 auto; /* Center the slider */
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-item {
+  width: 100%; /* Full width of the container */
+  height: 100px; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0; /* Example background color */
+  border-radius: 10px;
+  margin: 10px 0; /* Add some space between slides */
+}
+
+/* Optional: Style the navigation arrows for vertical scrolling */
+.slick-prev,
+.slick-next {
+  z-index: 10; /* Ensure they are visible */
+}
+
+.slick-prev {
+  top: -30px; /* Adjust position */
+  left: -10px; /* Adjust position */
+}
+
+.slick-next {
+  top: -30px; /* Adjust position */
+  right: -10px; /* Adjust position */
+}
